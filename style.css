@@ -78,7 +78,7 @@ ul li a:hover{
 /*Setting the background image */ 
 #container1::before{
     content:'';
-    background: url("https://th.bing.com/th/id/R.2d5e24b5a99e874f5f5038f2a78a2e92?rik=Y1SOYE8%2b8Pj%2bJQ&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f1194377%2fimages%2fo-PET-FOOD-facebook.jpg&ehk=1%2fI8drK2tamqoKLv0Cb0LxmdEv2iltiKTE1%2bBprivHU%3d&risl=&pid=ImgRaw&r=0") no-repeat center center/cover;
+    background: url("2.jpg") no-repeat center center/cover;
     width: 100vw;
     height:59vh;
     position: absolute;
@@ -133,7 +133,7 @@ ul li a:hover{
 }
 #row2::before{
     content: '';
-    background: url('https://s-i.huffpost.com/gen/1736904/images/o-PET-FOOD-facebook.jpg') no-repeat center center/cover;
+    background: url('3.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0px;
     left:0px;
