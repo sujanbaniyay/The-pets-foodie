@@ -13,59 +13,45 @@
 <body>
     <header>
         <h1 id="top">The pets</h1>
-        <h1 id="top1">foodie</h1>
+        <h1 id="top1">foodie login</h1>
+        <hr>
+        <nav id="navbar">
+            <img src="https://www.bestconsumerreviews.com/wp-content/uploads/2019/06/Canned-Dog-Food-3.jpg">
+            <ul id="navcontent">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <hr>
-    <nav id="navbar">
-        <img src="https://www.bestconsumerreviews.com/wp-content/uploads/2019/06/Canned-Dog-Food-3.jpg">
-    </nav
-    <center>
-		<br><br>
-		<h1>login</h1><br><br>
-		
+
+<center>
+    <br><br>
+    <h1> Login form </h1><br><br>
+</center>
+<form action="/action_page.php" method="post">
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
         
-	</center>
-         
-	
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
 
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
 
-                <!--join-->
-                <div class ="login">
-                    <form id = "login" onSubmit="return validate();" method = "GET">
-
-                        <div class= "login">	
-                            <h1>login to our app</h1></div>
-                        <div class = "form-group">
-                            <label><b>Name:</b></label>
-                            <input type ="text"  id="name" name = "fullname">
-                        </div>
-                        <br/>
-
-                        <div class="login-group">
-                            <label><b>E-mail:</b> </label>
-                            <input type ="text" id="email" name = "email">
-                        </div>
-                        <br/>
-                        
-                        <input class ="button" type ="submit" value = "Submit"> 
-                        <br/>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <footer class="footer-container">
-            <h4>The pets foodie</h4>
-            <p> HIT238 Mobile Paradigm</p>
-            <figure>
-                <a href="http://www.facebook.com/">
-                <img src="images/facebook.png" alt="Facebook" class="socialmedia" onclick="fb()">
-                </a>
-                <a href="http://www.twitter.com/">
-                <img src="images/twitter.png" alt="Twitter" class="socialmedia" onclick="tw()">
-                </a>
-                <a href="http://www.instagram.com/">
-                <img src="images/instagram.png" alt="Instagram" class="socialmedia" onclick="insta()">
-                </a>
-              </figure>
 </body>
 </html>
+
+     
