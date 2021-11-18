@@ -169,7 +169,6 @@ ul li a:hover{
      }
      #toggle {
         padding: 6px 10px;
-        border: none;
         box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-radius: 8px;
         background-color: #8d1f43;
@@ -192,7 +191,6 @@ ul li a:hover{
     }
     
     button {
-      background-color: #04AA6D;
       color: white;
       padding: 14px 20px;
       margin: 8px 0;
@@ -257,7 +255,6 @@ ul li a:hover{
         bottom: 20px;
         right: 20px;
         background-color: black;
-        color: white;
         padding-left: 20px;
         padding-right: 20px;
       }
